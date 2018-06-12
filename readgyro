@@ -75,6 +75,8 @@ if __name__ == '__main__':
         lg_stab.add_variable('gyro.y', 'float')
         lg_stab.add_variable('gyro.z', 'float')
         x_arr = np.array([])
+        y_arr = np.array([])
+        z_arr = np.array([])
         t = np.array([])
         cf = Crazyflie(rw_cache='./cache')
         #Connecting to radio
@@ -88,6 +90,8 @@ if __name__ == '__main__':
                     data = log_entry[1]
                     logconf_name = log_entry[2]
                     x_arr = np.append(x_arr,data['gyro.x'])
+                    y_arr = np.append(y_arr,data['gyro.y'])
+                    z_arr = np.append(z_arr,data['gyro.z'])
                     t = np.append(t,time.time()-start)
                     print('[%d][%s]: %s' % (timestamp, logconf_name, data))
                     
@@ -97,7 +101,20 @@ if __name__ == '__main__':
                         plt.ylabel('x Displacement [m]')
                         plt.title('Gyro.x Data')
                         plt.show()
+                        
+                        plt.plot(t,y_arr)
+                        plt.xlabel('Time [s]')
+                        plt.ylabel('y Displacement [m]')
+                        plt.title('Gyro.y Data')
+                        plt.show()
+                        
+                        plt.plot(t,z_arr)
+                        plt.xlabel('Time [s]')
+                        plt.ylabel('z Displacement [m]')
+                        plt.title('Gyro.z Data')
+                        plt.show()
                         break
+                        
         
 
     
