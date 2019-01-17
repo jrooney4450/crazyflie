@@ -6,6 +6,8 @@ Created on Tue Jun  5 11:27:20 2018
 @author: bitcraze
 """
 
+#justin github test
+
 import logging
 import time
 from threading import Thread
