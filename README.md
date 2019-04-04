@@ -1,9 +1,7 @@
 # crazyflie
 
 Drones at Cooper
-
 Cooper Union 2019  
-
 Author: Justin Rooney
 
 Path to acquire needed skills to fly drones with ROS and CF architectures:
