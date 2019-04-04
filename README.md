@@ -1,33 +1,23 @@
 # crazyflie
 
-Drones at Cooper
-Cooper Union 2019  
+Drones at Cooper Union 2019  
 Author: Justin Rooney
 
-Path to acquire needed skills to fly drones with ROS and CF architectures:
+Path to acquire needed skills to fly drones with ROS and CF architectures
 
-Python:
-
-Introduction to Python:
-
+Python course:
 https://www.udacity.com/course/introduction-to-python--ud1110?fbclid=IwAR0sJsyTI8hajwfGY3absE38o74-UE_sEc6gVM15cFBakyygvYMt5I4VR-0
 
 Good Places to Practice with Unit Testing:
-
 https://www.hackerrank.com/
-
 https://www.codewars.com/
 
 Bash:
-
-Shell Workshop: 
-
 https://www.udacity.com/course/shell-workshop--ud206?fbclid=IwAR2WmDUQmo6p9Eyq1fQXz1gs7hwWDnXLb0d-27z7NG3vBEe876c1x-pRFFM
 
 Git:
 
 ROS:
-
 http://wiki.ros.org/ROS/Tutorials
 
 Script credit to the following:
