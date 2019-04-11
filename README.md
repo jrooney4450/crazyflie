@@ -3,12 +3,15 @@
 Drones at Cooper Union 2019  
 Author: Justin Rooney
 
+mocap server at IP address: 199.98.21.246
+`$ ping 199.98.21.246`
+
 Path to acquire needed skills to fly drones with ROS and CF architectures
 
 Python course:
 https://www.udacity.com/course/introduction-to-python--ud1110?fbclid=IwAR0sJsyTI8hajwfGY3absE38o74-UE_sEc6gVM15cFBakyygvYMt5I4VR-0
 
-Good Places to Practice with Unit Testing:
+Good Places to Practice Python with Unit Testing:
 https://www.hackerrank.com/
 https://www.codewars.com/
 
@@ -19,6 +22,9 @@ Git:
 
 ROS:
 http://wiki.ros.org/ROS/Tutorials
+
+C++:
+
 
 Script credit to the following:
 
