@@ -6,6 +6,9 @@ Author: Justin Rooney
 mocap server at IP address: 199.98.21.246
 `$ ping 199.98.21.246`
 
+install vscode
+`sudo snap install --classic code`
+
 Path to acquire needed skills to fly drones with ROS and CF architectures
 
 Python course:
