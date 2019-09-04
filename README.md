@@ -1,36 +1,47 @@
-# crazyflie
-
-Drones at Cooper Union 2019  
+# Drones at Cooper Union
 Author: Justin Rooney
 
+## Crazyswarm Documentation
+
+### USC Paper Walking through method to setup
+http://act.usc.edu/publications/Hoenig_Springer_ROS2017.pdf
+
+### The official crazyswarm doucmentation
+https://crazyswarm.readthedocs.io/en/latest/index.html
+
+### Useful Tips for 705 setup
 mocap server at IP address: 199.98.21.246
 `ping 199.98.21.246`
 
-install vscode
+install vscode on Linux
 `sudo snap install --classic code`
 
-Path to acquire needed skills to fly drones with ROS and CF architectures
+## Path to acquire needed skills to fly drones with ROS and CF architectures
 
-Python course:
+### Python course:
 https://www.udacity.com/course/introduction-to-python--ud1110?fbclid=IwAR0sJsyTI8hajwfGY3absE38o74-UE_sEc6gVM15cFBakyygvYMt5I4VR-0
 
-Good Places to Practice Python with Unit Testing:
+### Good Places to Practice Python with Unit Testing:
 https://www.hackerrank.com/
 https://www.codewars.com/
 
-Bash:
+### Bash:
 https://www.udacity.com/course/shell-workshop--ud206?fbclid=IwAR2WmDUQmo6p9Eyq1fQXz1gs7hwWDnXLb0d-27z7NG3vBEe876c1x-pRFFM
 
-Git:
+### Git:
 
-ROS:
+### ROS:
 http://wiki.ros.org/ROS/Tutorials
+http://marte.aslab.upm.es/redmine/files/dmsf/p_drone-testbed/170324115730_268_Quigley_-_Programming_Robots_with_ROS.pdf
 
-C++:
+### C++:
 https://www.learncpp.com/
 
 
-Script credit to the following:
+
+
+
+## Script credit to the following:
 
 Python Scripts for Crazyflie 2.0
 
