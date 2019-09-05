@@ -31,3 +31,21 @@ Python Scripts for Crazyflie 2.0<br/>
 Cooper Union 2018<br/>
 Authors: Andrew Chin and Andrew Mosin<br/>
 [Follow Instructions Here](https://www.bitcraze.io/getting-started-with-the-crazyflie-2-0/)
+
+To run cfclient (UI based)
+
+`cd crazyswarm/crazyflie-clients-python/bin`
+`python cfclient`
+
+alias cfcli
+
+To run hover script to ensure radio is working:
+`cd crazyswarm/crazyflie-lib-python/examples`
+
+`gcc -Wall -Werror -Wextra -pedantic -L. ViconDataStreamSDK_CPPTest.cpp -llibViconDataStreamSDK_CPP.so -o test`
+
+To get Vicon data stream pushed to Linux navigate to: 
+`cd ~/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/build`
+
+run:
+`./ViconDataStreamSDK_CPPTest 199.98.21.246`
